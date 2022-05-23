@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E461LJFR5Y"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E461LJFR5Y');
+</script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pagina de inicio</title>
+</head>
+<body>
+    
+    <section class="hero">
+        <div class="main-width">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-naira-sign"></i>
+                </div>
+                <nav>
+                    <div class="hamb">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#">Sobre mi</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="ubicacion.html">Ubicación</a></li>
+                        <li class="btn"><a href="registrar.php">Registrarme</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-text">
+                    <h3>Hola, bienvenido.</h3>
+                    <h1>Yo soy <span class="input"></span></h1>
+                    <p>Aqui encontraras cursos basicos sobre bases de datos relacionales y no relacionales.</p>
+                    <div class="social">
+                        <a target="blank" href="https://www.facebook.com/neftali.pulidorodriguez1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a target="blank" href="https://www.instagram.com/neftali.kicks/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitch"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <button onclick="location.href='cursos.html'" type="button"> Más sobre mis cursos</button>
+                </div>
+                <div class="bottom">
+                    <p>2022 xNef - All Rights Reserves.</p>
+                </div>
+                <script defer src="https://widget.tochat.be/bundle.js?key=cf09c1e2-96e0-4482-88da-3b182670deac"></script>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Neftali Rodriguez", "xNef", " Admin. Base de datos", "Desarrollador web"],
+            typeSpeed: 70,
+            backSpeed: 60,
+            loop: true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.583)), url();;
+    color: #fff;
+    line-height: 1.6;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.ubi{
+    margin-bottom: 15px;
+}
